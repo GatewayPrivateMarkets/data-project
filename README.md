@@ -46,7 +46,7 @@ This specification outlines a potential way to implement this system, leveraging
 2.	Authentication: User logs in on the website using their mobile number and password, or is authenticated by Twilio via WhatsApp.
 3.	Langchain processes the request: Retrieves data from Google Drive and interfaces with OpenAI's GPT-4 to generate a response.
 4.	Response delivery: Through WhatsApp or displayed on the website, depending on the interaction mode.
-6. Development Milestones
+### 6. Development Milestones
 - Infrastructure Setup: Establish both communication channels and all required integrations.
 - User Interface Development: Design and implement the web interface.
 - Authentication System: Build and secure the login mechanism.
